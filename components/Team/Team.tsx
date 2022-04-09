@@ -4,7 +4,7 @@ export default function Team() {
   return (
     
 
-    <section className="bg-black dark:bg-gray-900 pt-10" id="team">
+    <section className="bg-black pt-10" id="team">
       <div className="container px-6 py-10 mx-auto max-w-4xl pt-5">
         <h1 className="text-3xl font-barcade text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-500 capitalize lg:text-4xl dark:text-white">TEAM</h1>
         <br />
@@ -99,7 +99,7 @@ export default function Team() {
           </div>
 
         </div>
-        <p className="my-6 dark:text-gray-400 text-lg">
+        <p className="sm:text-sm my-6 dark:text-gray-400 text-lg">
           The rest of the team such as the <a href="http://42dao.live" className=" text-transparent bg-clip-text bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-500">42 DAO</a> devs and web designers alongside our mods are doing a fabulous job on the back and
           front-end to ensure a flawless experience for our community.
         </p>

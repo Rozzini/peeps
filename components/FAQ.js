@@ -43,7 +43,7 @@ const Item = ({ title, children }) => {
 export const FAQ = () => {
 	return (
 		<section id="faq">
-			<div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+			<div class="pl-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
 
 				<p className="font-barcade text-center text-5xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-500 p-10">
