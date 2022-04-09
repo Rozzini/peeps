@@ -52,7 +52,7 @@ export default function Who() {
             </ul>
           </div>
 
-          <div className="grid grid-cols-3 gap-6 p-5 pt-10 pb-20">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-5 pt-10 pb-20">
             <img src = "anNFT1.gif" className="max-w-full h-auto" />
             <img src = "anNFT2.gif" className="max-w-full h-auto" />
             <img src = "anNFT3.gif" className="max-w-full h-auto" />
