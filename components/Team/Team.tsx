@@ -10,11 +10,11 @@ export default function Team() {
         <br />
         <br />
 
-        <div className="grid overflow-hidden grid-cols-6 grid-rows-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 overflow-hidden grid-cols-6 gap-10">
 
 
 
-          <div className="box col-start-1 col-end-3 flex flex-col items-center border-solid border-2 rounded-xl">
+          <div className="box flex flex-col items-center border-solid border-2 rounded-xl">
             <p className="p-20 text-2xl">Image in progress...</p>
             {/* <img className="object-cover w-full rounded-xl aspect-square" src="prm.jpg" /> */}
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">PRM</h1>
@@ -31,7 +31,7 @@ export default function Team() {
 
 
 
-          <div className="box col-start-3 col-end-5 flex flex-col items-center border-solid border-2 rounded-xl">
+          <div className="box flex flex-col items-center border-solid border-2 rounded-xl">
             <p className="p-20 text-2xl">Image in progress...</p>
             {/* <img className="object-cover w-full rounded-xl aspect-square" src="prm.jpg" /> */}
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Bahar</h1>
@@ -48,7 +48,7 @@ export default function Team() {
 
 
 
-          <div className="box col-start-5 col-end-7 flex flex-col items-center border-solid border-2 rounded-xl">
+          <div className="box flex flex-col items-center border-solid border-2 rounded-xl">
             <p className="p-20 text-2xl">Image in progress...</p>
             {/* <img className="object-cover w-full rounded-xl aspect-square" src="prm.jpg" /> */}
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Mo</h1>
@@ -65,7 +65,7 @@ export default function Team() {
 
 
 
-          <div className="box row-start-2 row-end-2 col-start-2 col-end-4 flex flex-col items-center border-solid border-2 rounded-xl">
+          <div className="box flex flex-col items-center border-solid border-2 rounded-xl">
             <p className="p-20 text-2xl">Image in progress...</p>
             {/* <img className="object-cover w-full rounded-xl aspect-square" src="prm.jpg" /> */}
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Appel</h1>
@@ -82,7 +82,7 @@ export default function Team() {
 
 
 
-          <div className="box row-start-2 row-end-2 col-start-4 col-end-6 flex flex-col items-center border-4 rounded-xl">
+          <div className="box flex flex-col items-center border-4 rounded-xl">
             <p className="p-20 text-2xl">Image in progress...</p>
             {/* <img className="object-cover w-full rounded-xl aspect-square" src="prm.jpg" /> */}
             <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Rajab</h1>
