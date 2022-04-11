@@ -15,13 +15,13 @@ export default function Income() {
             </div>
   
             <div className="mt-[1rem] font-sans">
-              <p className="my-6 dark:text-gray-400 text-lg">
+              <p className="my-6 text-gray-400 text-lg">
                 The reason the AnonymousPeeps are being so mysterious and don't want to reveal their
                 identity is because they're stacking some serious crypto that is meant for whoever owns
                 one. Let's look a bit more into their double stream earnings!
               </p>
               <div className="mt-[1rem]">
-             <ul className="list-disc">
+             <ul className="list-disc text-gray-400">
                 <li className="text-lg italic leading-8">
                     The total collection of AnonymousPeeps holds 10k from where 600 NFTs will be
                     available as a free mint to our exclusive 600 DubaiPeeps holders.
@@ -45,24 +45,24 @@ export default function Income() {
             </div>
 
             <div className="mt-[0.5rem]">
-              <p className="my-4 dark:text-gray-400 text-lg">
+              <p className="my-4 text-gray-400 text-lg">
                 <strong>Tier 1 (Runners Pool)</strong> <br></br>
                 The first 2000 whitelist spots given out will offer the first 2000 NFT holders 13% APY and 5% royalties.
               </p>
             </div>
             <div className="mt-[0.5rem]">
-              <p className="my-4 dark:text-gray-400 text-lg">
+              <p className="my-4 text-gray-400 text-lg">
                 <strong>Tier 2 (Walkers Pool)</strong> <br></br>
                 The following 3000 whitelist spots will offer the following 3000 NFT holders 9% APY and 5% royalties..
               </p>
             </div>
             <div className="mt-[0.5rem]">
-              <p className="my-4 dark:text-gray-400 text-lg">
+              <p className="my-4 text-gray-400 text-lg">
                 <strong>Tier 3 (Crawlers Pool)</strong> <br></br>
                 The remaining 5000 whitelist spots will offer the remaining 5000 NFT holders 5% APY and 5% royalties.
               </p>
             </div>
-            <p className="my-4 dark:text-gray-400 text-xl font-semibold">
+            <p className="pt-6 pb-2 text-gray-400 text-xl font-semibold">
                 Basically the more AnonymousPeeps you hold, the more $$$ you make indefinitely!
             </p>
           </div>

@@ -12,6 +12,8 @@
         "@heroicons/react": "^1.0.6",
         "@popperjs/core": "2.9.1",
         "@walletconnect/web3-provider": "^1.7.7",
+        "axios": "^0.26.1",
+        "emailjs": "^3.8.0",
         "moralis": "^1.5.8",
         "next": "latest",
         "next-fonts": "^1.5.1",

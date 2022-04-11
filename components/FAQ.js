@@ -62,7 +62,7 @@ export const FAQ = () => {
 						</Item>
 					</div>
 					<div class="box row-start-2 col-start-1 col-end-5">
-						<Item title="Where can i get NFT?">
+						<Item title="Where can i get the NFT?">
 							<a className="text-lg text-white">You will be able to purchase it here on our website</a>
 						</Item>
 					</div>

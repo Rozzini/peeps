@@ -9,21 +9,21 @@ export default function Who() {
 
           <div className="flex flex-row items-center ">
             <div>
-              <p className="section-category text-grey text-xl font-bold italic text-transparent bg-clip-text bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-500">
+              <p className="section-category text-grey text-2xl font-bold italic text-transparent bg-clip-text bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-500">
                 <strong>Who are these guys?!</strong>
               </p>
             </div>
           </div>
 
           <div className="mt-[1rem]">
-            <p className="my-6 dark:text-gray-400 text-lg">
+            <p className="my-6 text-gray-400 text-lg">
               The AnonymousPeeps are a mysterious bunch of Peeps who have appeared out of nowhere in
               our dimension! Who they really are is unclear; they don't want to reveal themselves. They
               seem to be coming from the future Metaverse with their digitalization, textures and smooth
               curves all over. Maybe they are famous or possibly the top elite in the crypto space... I guess
               everyone will find out soon enough.
             </p>
-            <p className="my-6 dark:text-gray-400 text-lg">
+            <p className="my-6 text-gray-400 text-lg">
               What we know so far is that they are a collection of 9999+1 NFTs appearing on the Ethereum
               blockchain, stored as an ERC-721 token. We've also heard that they have crazy incentives for
               whoever is lucky enough to catch one.
@@ -33,14 +33,14 @@ export default function Who() {
 
           <div className="flex flex-row items-center ">
             <div>
-              <p className="section-category text-grey text-xl font-bold italic">
+              <p className="section-category text-white text-xl font-bold italic">
                 <strong>Collection Highlights:</strong>
               </p>
             </div>
           </div>
 
           <div className="mt-[1rem]">
-           <ul className="list-disc list-outside">
+           <ul className="list-disc list-outside text-gray-400">
               <li className="text-lg">MIXED MEDIA ARTWORK BY SCULPTOR AND DIGITAL ARTIST PRM</li>
               <li className="text-lg">3 TIER PASSIVE INCOME STRUCTURE</li>
               <li className="text-lg">5% ROYALTIES FOR ALL HOLDERS</li>
@@ -61,21 +61,21 @@ export default function Who() {
 
           <div className="flex flex-row items-center ">
             <div>
-              <p className="section-category text-grey text-xl font-bold italic text-transparent bg-clip-text bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-500">
+              <p className="section-category text-grey text-2xl font-bold italic text-transparent bg-clip-text bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-500">
                 <strong>What's their swag about?!</strong>
               </p>
             </div>
           </div>
 
           <div className="mt-[1rem]">
-            <p className="my-6 dark:text-gray-400 text-lg">
+            <p className="my-6 text-gray-400 text-lg">
               These guys are a unique mixed media artwork made by PRM. They are a combination of pixel
               art, hand drawings, textures and digital animation that reflect the transition and evolution of
               pixelation and traditional paintings in the digital art space.
               The total collection holds 10K NFTs that are categorized through different rarities and
               attributes:
             </p>
-            <ul className="list-disc">
+            <ul className="list-disc text-gray-400">
               <li className="text-lg italic"><strong>9,950 Fixers </strong>are programmatically generated with 180 unique traits which determine
                 gender, clothing, accessories, jewelry and digital backgrounds. Some will be extremely rare
                 while others will be more common.</li>
@@ -90,10 +90,10 @@ export default function Who() {
                 be revealed later on.</li>
             </ul>
 
-            <p className="mb-6 mt-10 dark:text-gray-400 text-xl font-bold italic">
+            <p className="mb-6 mt-10 text-white text-xl font-bold italic">
              <strong>Become part of ThePeepsProject</strong>
             </p>
-            <p className="my-6 dark:text-gray-400 text-lg">
+            <p className="my-6 text-gray-400 text-lg">
               It is a continuously growing community that started off with the DubaiPeeps and is now
               reaching beyond. Each member is part of our growing family that has solidified through
               live events, exclusive "members only" channels and networking. As we continue to grow
