@@ -1,23 +1,23 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import axios from 'axios'
+import { useState, useRef, useEffect } from "react";
+import emailjs from '@emailjs/browser';
 
 export default function NewsLetterFeed() {
 
-  const [email,setEmail]=useState('');
-  const SendMail = async (e)=>{
-    axios.post('http://localhost:3000/api/email',{email})
-    .then(
-     
-    (res)=>{
-      alert(email)
-      setEmail('')
-  
-    }
-  
-    ).catch(
-      (e)=>console.log(e)
-    )
+  const [email, setEmail] = useState('');
+
+  const SendMail = async (e) => {
+    const mail_box = document.getElementById('email');
+    var user_email = {
+      user_email: email,
+    };
+    emailjs.send('service_6sd8bum', 'template_ow3rb7e', user_email, '_v96jk7uH8PoaY21Q')
+      .then(function (response) {
+        alert("Subscribed");
+      }, function (error) {
+        alert("Error try again");
+      });
+      mail_box.value = '';
   }
   return (
     <div className="my-40 grid md:grid-cols-2 gap-4 container mx-auto px-2 ">
@@ -53,11 +53,11 @@ export default function NewsLetterFeed() {
       <div>
         <p className="font-barcade text-4xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-500">Subscribe now</p>
         <p className="font-sans text-xl py-10">
-         Subscribe to receive our newsletter and further information on whitelist opportunities and drops.
+          Subscribe to receive our newsletter and further information on whitelist opportunities and drops.
         </p>
         <div className="flex justify-center items-stretch pb-5">
-            <input className="bg-gray-100 rounded-lg rounded-r-none text-base leading-none text-gray-800 p-5 w-3/5 border border-transparent focus:outline-none focus:border-gray-500" type="email" placeholder="Your Email" required value={email} onChange={(e)=>setEmail(e.target.value)}></input>
-            <button onClick={SendMail} className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-25 rounded-l-none rounded text-base font-medium leading-none text-white p-5 uppercase">subscribe</button>
+          <input className="bg-gray-100 rounded-lg rounded-r-none text-base leading-none text-gray-800 p-5 w-3/5 border border-transparent focus:outline-none focus:border-gray-500" id="email" type="email" placeholder="Your Email" required value={email} onChange={(e) => setEmail(e.target.value)}></input>
+          <button onClick={SendMail} className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-25 rounded-l-none rounded text-base font-medium leading-none text-white p-5 uppercase">subscribe</button>
         </div>
       </div>
     </div>
