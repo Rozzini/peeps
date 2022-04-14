@@ -11,7 +11,7 @@ export default function NewsLetterFeed() {
     var user_email = {
       user_email: email,
     };
-    emailjs.send('service_6sd8bum', 'template_ow3rb7e', user_email, '_v96jk7uH8PoaY21Q')
+    emailjs.send(process.env.serviceid, process.env.templateid, user_email, process.env.api)
       .then(function (response) {
         alert("Subscribed");
       }, function (error) {
