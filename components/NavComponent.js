@@ -39,7 +39,7 @@ export default function NacComponent() {
               <div className="flex-1 flex items-center justify-center pt-px sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-20 w-auto"
+                    className="block pl-7 lg:hidden h-20 w-30"
                     src="logo.png"
                     alt= "AnonPeeps"
                   />
@@ -102,61 +102,3 @@ export default function NacComponent() {
     </Disclosure>
   )
 }
-
-// import React,{useState} from "react";
-// import ConnectWallet from './ConnectWallet'
-
-// export default function NavComponent() {
-
-//     let arr = [true, false, false, false, false, false]
-//     const [dropDown, setDropDown] = useState(true);
-
-//     return (
-//         <div className="2xl:container 2xl:mx-auto">
-//             <div className="bg-black rounded shadow-lg py-5 px-7">
-//                 <nav className="flex justify-between">
-//                     <div className="flex items-center space-x-3 lg:pr-16 pr-6">
-//                         <img src = "logo3.png" className="" />
-//                     </div>
-//                     {/* For medium and plus sized devices */}
-                   
-//                     <ul className="hidden md:flex flex-auto space-x-2 pt-7">
-//                         <li> <a href="#team" className="pl-3 text-base">Who are they?</a></li>
-//                         <li> <a href="#team" className="pl-3 text-base">Roadmap</a></li>
-//                         <li> <a href="#team" className="pl-3 text-base">Income</a></li>
-//                         <li> <a href="#team" className="pl-3 text-base">Team</a></li>
-//                         <li> <a href="#team" className="pl-3 text-base">Partners</a></li>
-//                         <li> <a href="#team" className="pl-3 text-base">FAQs</a></li>
-//                         <li> <a href="#team" className="pl-3 text-base">Whitepaper</a></li>
-//                     </ul>
-//                     <div className=" flex space-x-5 justify-center items-center pl-2">
-//                        <ConnectWallet/>
-//                     </div>
-//                 </nav>
-//                 {/* for smaller devcies */}
-//                 <div className="block md:hidden w-full mt-5 ">
-//                     <div onClick={()=>setDropDown(!dropDown)} className="cursor-pointer px-4 py-3 text-white bg-indigo-600 rounded flex justify-between items-center w-full">
-//                         <div className="flex space-x-2">
-//                             <p>Menu</p>
-//                         </div>
-//                         <svg id="ArrowSVG" className={`${dropDown ? '' : 'rotate-180'} transform duration-100`} width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-//                             <path d="M6 9L12 15L18 9" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-//                         </svg>
-//                     </div>
-//                     <div className=" relative">
-//                         <ul id="list" className={`${dropDown ? 'hidden' : 'block'} font-normal text-base leading-4 absolute top-2  w-full rounded shadow-md`}>
-//                         <li> <a href="#team" className="pl-3 text-xl">Who are they?</a></li>
-//                         <li> <a href="#team" className="pl-3 text-xl">Roadmap</a></li>
-//                         <li> <a href="#team" className="pl-3 text-xl">Income</a></li>
-//                         <li> <a href="#team" className="pl-3 text-xl">Team</a></li>
-//                         <li> <a href="#team" className="pl-3 text-xl">Partners</a></li>
-//                         <li> <a href="#team" className="pl-3 text-xl">FAQs</a></li>
-//                         <li> <a href="#team" className="pl-3 text-xl">Whitepaper</a></li>
-//                         </ul>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-
-//     );
-// }
